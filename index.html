@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <script src="Assets/javascript/game.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <title>Psychic Game</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+</head>
+<body>
+    <div id="game">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-9">
+                <div class="jumbotron">
+                  <h2><span id="userGuess"><strong>Welcome to the Psychic Game</strong></span></h2>
+                  <br>
+                  <h2>Take a shot at which letter i'm thinking of??? <span id="computerGuess"></span></h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-offset-2 col-md-3">
+                <h5>Wins</h5><br><span id="result-win">0</span>
+              </div>
+              <div class="col-md-3">
+                <h5>Losses</h5><br><span id="result-loss">0</span>
+              </div>
+              <div class="col-md-3">
+                <h5>Guesses left: </h5><br><span id="guesses">10</span>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h5>Your guesses:</h5><span id="userPicks"></span>
+                </div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
