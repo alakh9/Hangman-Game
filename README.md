@@ -1,2 +1,2 @@
 # Hangman-Game
-Hangman Harder HW
+psychic game
